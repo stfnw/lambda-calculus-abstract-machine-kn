@@ -1,0 +1,6 @@
+[package]
+name = "lambda_calculus_full_reducing_krivine_machine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
