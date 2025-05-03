@@ -182,7 +182,13 @@ fn krivine(term: Term) -> Term {
                         level: fl,
                     };
                 }
-                None => return (*t).clone(),
+                None => {
+                    let t_strong_count = Rc::strong_count(&t);
+                    return Rc::try_unwrap(t).expect(&format!(
+                        "Strong reference cound for term is {} != 1, can't unwrap",
+                        t_strong_count
+                    ));
+                }
             },
         }
     }
