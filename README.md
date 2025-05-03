@@ -20,7 +20,7 @@ Overall it is an excellent read!
 # Usage
 
 This repository is designed as a library.
-A minimal complete demo project that uses this library and reduces expressions provided on the commandline is available at https://github.com/stfnw/lambda-calculus-full-reducing-krivine-machine-cli.
+A minimal complete demo project that uses this library and reduces expressions provided on the commandline is available at https://github.com/stfnw/lambda-calculus-abstract-machine-kn-cli.
 
 Build:
 

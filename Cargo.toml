@@ -1,5 +1,5 @@
 [package]
-name = "lambda_calculus_full_reducing_krivine_machine"
+name = "lambda_calculus_abstract_machine_kn"
 version = "0.1.0"
 edition = "2021"
 
